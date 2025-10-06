@@ -1,3 +1,58 @@
+🎮 Cub3D
+🧠 About the Project
+
+Cub3D is a project inspired by the first-ever First-Person Shooter (FPS) game from the 90s.
+The goal is to recreate a dynamic 3D view inside a maze using ray-casting, simulating depth and perspective through mathematical projections.
+
+This project was developed as part of the 42 curriculum, focusing on:
+
+Computer graphics
+
+Applied mathematics
+
+Optimization
+
+Real-time interaction
+
+⚙️ 42 Coding Standards
+
+This project strictly follows the 42 coding norm, which enforces clean and maintainable code.
+Key rules include:
+
+Maximum 25 lines per function
+
+Maximum 5 variables per function
+
+Maximum 4 parameters per function
+
+No ternary operators
+
+Use of my own Libft (custom C utility library)
+
+🧩 Features
+
+3D rendering using ray-casting
+
+Player movement and rotation in real time
+
+Collision detection with walls
+
+Textured walls and dynamic lighting
+
+Map parsing from configuration files
+
+🧠 Technologies Used
+
+Language: C
+
+Graphics Library: MinilibX
+
+Utility Library: Libft (custom)
+
+Algorithms: 2D/3D mathematics, ray-casting, and geometry handling
+
+Tools: Makefile, Norminette
+
 🚀 How to Run
 
 Clone the repository:
