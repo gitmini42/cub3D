@@ -1,4 +1,5 @@
 🎮 Cub3D
+
 🧠 About the Project
 
 Cub3D is a project inspired by the first-ever First-Person Shooter (FPS) game from the 90s.
@@ -13,6 +14,7 @@ Applied mathematics
 Optimization
 
 Real-time interaction
+
 
 ⚙️ 42 Coding Standards
 
@@ -29,6 +31,7 @@ No ternary operators
 
 Use of my own Libft (custom C utility library)
 
+
 🧩 Features
 
 3D rendering using ray-casting
@@ -41,6 +44,7 @@ Textured walls and dynamic lighting
 
 Map parsing from configuration files
 
+
 🧠 Technologies Used
 
 Language: C
@@ -52,6 +56,7 @@ Utility Library: Libft (custom)
 Algorithms: 2D/3D mathematics, ray-casting, and geometry handling
 
 Tools: Makefile, Norminette
+
 
 🚀 How to Run
 
@@ -70,6 +75,7 @@ Run the program with a map file:
 
 ./cub3D maps/example.cub
 
+
 🧰 Example of Map File
 NO ./textures/wall_north.xpm  
 SO ./textures/wall_south.xpm  
@@ -83,6 +89,7 @@ C 225,30,0
 101001  
 1000N1  
 111111  
+
 
 📚 Learning Outcomes
 
