@@ -41,16 +41,23 @@ Tools: Makefile, Norminette
 🚀 How to Run
 
 Clone the repository:
+
 git clone https://github.com/yourusername/cub3d.git
+
 cd cub3d
 
 Compile the project:
+
 make
 
+
 Run the program with a map file:
+
 ./cub3D map1.cub
 
+
 🧰 Example of Map File
+
 NO ./textures/north.xpm  
 SO ./textures/south.xpm  
 WE ./textures/west.xpm  
