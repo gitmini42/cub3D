@@ -69,7 +69,7 @@ This project was developed following **42’s strict coding standards**:
 2. **Compile the project**
    ```bash
    make
-. **Run the program**
+3. **Run the program**
    ```bash
    ./cub3D map.cub
    ```
