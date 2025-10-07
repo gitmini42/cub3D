@@ -1,109 +1,132 @@
-🎮 Cub3D
+# 🎮 Cub3D
 
-🧠 About the Project
+> A ray-casting 3D maze project inspired by the first-ever FPS game.  
+> Developed as part of the **42 curriculum**, written in **C**, and built under strict coding standards.
 
-Cub3D is a project inspired by the first-ever First-Person Shooter (FPS) game from the 90s.
-The goal is to recreate a dynamic 3D view inside a maze using ray-casting, simulating depth and perspective through mathematical projections.
+---
 
-This project was developed as part of the 42 curriculum, focusing on:
+## 🧠 About the Project
 
-Computer graphics
+**Cub3D** is inspired by the legendary 90s game that pioneered the FPS genre.  
+The goal is to recreate a **3D perspective inside a maze** using **ray-casting**, simulating depth and distance.
 
-Applied mathematics
+This project focuses on:
+- 🧩 Computer graphics  
+- 🧮 Applied mathematics  
+- ⚙️ Optimization  
+- ⏱️ Real-time interaction  
 
-Optimization
+---
 
-Real-time interaction
+<details>
+<summary>⚙️ 42 Coding Standards</summary>
 
+This project was developed following **42’s strict coding standards**:
 
-⚙️ 42 Coding Standards
+- 📏 Functions under **25 lines**  
+- 💡 Maximum **5 variables** per function  
+- 🧱 Maximum **4 parameters** per function  
+- 🚫 **No ternary operators** allowed  
+- 🧰 Use of my own **Libft** library (custom C utility library)
 
-This project strictly follows the 42 coding norm, which enforces clean and maintainable code.
-Key rules include:
+</details>
 
-Maximum 25 lines per function
+---
 
-Maximum 5 variables per function
+<details>
+<summary>🧩 Features</summary>
 
-Maximum 4 parameters per function
+- ✅ Real-time 3D rendering using **ray-casting**  
+- ✅ Player movement and rotation  
+- ✅ Collision detection with walls  
+- ✅ Textured walls and simple lighting effects  
+- ✅ Map parsing from `.cub` configuration files  
 
-No ternary operators
+</details>
 
-Use of my own Libft (custom C utility library)
+---
 
+<details>
+<summary>🧠 Technologies Used</summary>
 
-🧩 Features
+- **Language:** C  
+- **Graphics Library:** MinilibX  
+- **Utility Library:** Libft (custom)  
+- **Algorithms:** 2D/3D mathematics, ray-casting, geometry handling  
+- **Tools:** Makefile, Norminette  
 
-3D rendering using ray-casting
+</details>
 
-Player movement and rotation in real time
+---
 
-Collision detection with walls
+<details>
+<summary>🚀 How to Run</summary>
 
-Textured walls and dynamic lighting
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/scarlos42/cub3d.git
+   cd cub3d
+2. **Compile the project**
+   ```bash
+   make
+. **Run the program**
+   ```bash
+   ./cub3D map.cub
+   ```
+</details>
 
-Map parsing from configuration files
+---
 
+<details>
+<summary>🧾 Example of Map File</summary>
 
-🧠 Technologies Used
+   ```text
 
-Language: C
+   NO textures/oldcolor.xpm
+   SO textures/south.xpm
+   WE textures/color-stone.xpm
+   EA textures/geometrica.xpm
+  
+   F 128, 128, 128
+   C 135, 206, 235
+    
+   1111111111111111111111
+   10000000000000000011
+   11010000111111100000111
+   110000101   100111000111111
+   100000001  110000000111111
+   100000011111000000011
+   1000000000000000000001
+   1000000000000000000001
+   1000000000000000000001
+   1000000000000000010011
+   1000000000000000000001
+   1000000000000000000001
+   1000000000N00000000001
+   1000000000000000000001
+   1111111111111111111111
+   ```
+</details>
 
-Graphics Library: MinilibX
+---
 
-Utility Library: Libft (custom)
+<details> <summary>📚 Learning Outcomes</summary>
 
-Algorithms: 2D/3D mathematics, ray-casting, and geometry handling
+Through this project, I deepened my understanding of:
 
-Tools: Makefile, Norminette
+🔢 Linear algebra and trigonometry for 3D rendering
 
+⚡ Real-time performance and optimization
 
-🚀 How to Run
+💾 Memory management in C
 
-Clone the repository:
+🧼 Writing clean, maintainable code under strict rules
 
-git clone https://github.com/yourusername/cub3d.git
-cd cub3d
+</details>
 
-
-Compile the project:
-
-make
-
-
-Run the program with a map file:
-
-./cub3D maps/example.cub
-
-
-🧰 Example of Map File
-NO ./textures/wall_north.xpm  
-SO ./textures/wall_south.xpm  
-WE ./textures/wall_west.xpm  
-EA ./textures/wall_east.xpm  
-F 220,100,0  
-C 225,30,0  
-
-111111  
-100001  
-101001  
-1000N1  
-111111  
-
-
-📚 Learning Outcomes
-
-Through this project, I learned and applied concepts in:
-
-Linear algebra and trigonometry for 3D projection
-
-Real-time rendering and optimization
-
-Memory management in C
-
-Clean coding practices under strict rules
+---
 
 🧾 License
 
-This project is developed for educational purposes as part of the 42 curriculum.
-Feel free to explore, learn, and get inspired!
+This project was developed for educational purposes as part of the 42 curriculum.
+Feel free to explore, learn, and build upon it! 🚀
