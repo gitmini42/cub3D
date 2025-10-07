@@ -82,10 +82,10 @@ This project was developed following **42’s strict coding standards**:
 
    ```text
 
-   NO textures/oldcolor.xpm
+   NO textures/north.xpm
    SO textures/south.xpm
-   WE textures/color-stone.xpm
-   EA textures/geometrica.xpm
+   WE textures/west.xpm
+   EA textures/east.xpm
   
    F 128, 128, 128
    C 135, 206, 235
