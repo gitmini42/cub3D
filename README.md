@@ -64,7 +64,7 @@ This project was developed following **42’s strict coding standards**:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/scarlos42/cub3d.git
+   git clone https://github.com/scarlos42/cub3D.git
    cd cub3d
 2. **Compile the project**
    ```bash
