@@ -129,4 +129,5 @@ Through this project, I deepened my understanding of:
 🧾 License
 
 This project was developed for educational purposes as part of the 42 curriculum, with contributions by [dsteiger42](https://github.com/dsteiger42).
+Feel free to explore, learn, and build upon it! 🚀
 
